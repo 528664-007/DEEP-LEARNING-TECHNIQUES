@@ -1,0 +1,25 @@
+Output:-
+super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+Epoch 1/5
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1751855447.136723 11876 meta_optimizer.cc:967] remapper failed:
+INVALID_ARGUMENT: Mutation::Apply error: fanout
+2117230020186
+'gradient_tape/sequential_1_4/leaky_re_lu_3_1/LeakyRelu/LeakyReluGrad_1' exist for missing
+node 'sequential_1_4/conv2d_1/BiasAdd'.
+2025-07-07 08:01:08.846729: I tensorflow/core/framework/local_rendezvous.cc:407] Local
+rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+ Generator loss: 0.7352, Discriminator loss: 1.1083
+Epoch 2/5
+2025-07-07 08:01:27.452800: I tensorflow/core/framework/local_rendezvous.cc:407] Local
+rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+ Generator loss: 0.8938, Discriminator loss: 1.1401
+Epoch 3/5
+ Generator loss: 1.0017, Discriminator loss: 0.8337
+Epoch 4/5
+2025-07-07 08:02:04.318789: I tensorflow/core/framework/local_rendezvous.cc:407] Local
+rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+ Generator loss: 1.1188, Discriminator loss: 1.0866
+Epoch 5/5
+ Generator loss: 0.8167, Discriminator loss: 1.4545
+ Augmented images saved in: augmented_gan_images
